@@ -1,6 +1,3 @@
-"""
-Rynds_Spellcasting
-"""
 import random
 prepnum=0
 offense=24
