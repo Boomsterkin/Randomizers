@@ -1,218 +1,225 @@
 import random
 v=0
 spidey=raw_input("Peter or Miles? ")
-print
+print()
 print("Suit:")
-suit=random.randint(1,39)
+suit=random.randint(1,40)
 if spidey!="Miles":
     if suit==1:
-        print("Advanced Suit 2.0")
+        print("Advanced 2.0")
         v+=1
     elif suit==2:
-        print("Black Suit")
+        print("Symbiote")
+        v+=1
     elif suit==3:
-        print("Symbiote Suit")
+        print("Venom")
+        v+=1
     elif suit==4:
-        print("Anti-Venom Suit")
+        print("Anti-Venom")
+        v+=1
     elif suit==5:
-        print("Classic Suit")
+        print("Classic")
         v+=1
     elif suit==6:
-        print("Scarlet III Suit")
+        print("Scarlet III")
         v+=1
     elif suit==7:
-        print("Advanced Suit")
+        print("Advanced 1.0")
         v+=1
     elif suit==8:
-        print("Kumo Suit")
+        print("Kumo")
         v+=1
     elif suit==9:
-        print("No Way Home Suit")
+        print("Hybrid Holland")
     elif suit==10:
-        print("Amazing Suit")
+        print("Dark Garfield")
     elif suit==11:
-        print("Amazing 2 Suit")
+        print("Light Garfield")
     elif suit==12:
-        print("2099 Suit")
+        print("Spider-Man 2099")
         v+=1
     elif suit==13:
-        print("Scarlet Suit")
+        print("Scarlet Spider")
         v+=1
     elif suit==14:
-        print("Superior Suit")
+        print("Superior Spider-Man")
         v+=1
     elif suit==15:
-        print("Anti-Ock Suit")
+        print("Anti-Ock Armour")
         v+=1
     elif suit==16:
-        print("Arachknight Suit")
+        print("The Arachknight")
         v+=1
     elif suit==17:
-        print("ITSV Noir Suit")
+        print("Spider-Man Noir")
     elif suit==18:
-        print("Homemade Suit")
+        print("Homemade Holland")
     elif suit==19:
         print("Spider-Punk")
         v+=1
     elif suit==20:
-        print("Civil War Suit")
+        print("Military Grade")
         v+=1
     elif suit==21:
         print("Iron Spider Armour")
         v+=1
     elif suit==22:
-        print("Webbed Black Suit")
+        print("Bully Maguire")
     elif suit==23:
-        print("Webbed Suit")
+        print("Tobey Maguire")
     elif suit==24:
-        print("Homecoming Suit")
+        print("Homecoming Holland")
     elif suit==25:
-        print("New Blue Suit")
+        print("New Blue")
         v+=1
     elif suit==26:
-        print("Far From Home Suit")
+        print("Homebound Holland")
     elif suit==27:
-        print("Night Monkey Suit")
+        print("Night Monkey")
     elif suit==28:
-        print("Classic Black Suit")
+        print("Classic Symbiote")
         v+=1
     elif suit==29:
-        print("Nanotech Iron Spider")
+        print("Iron Spider Holland")
     elif suit==30:
-        print("New Red Suit")
+        print("New Red")
     elif suit==31:
-        print("Inside-Out Suit")
+        print("Homewrecker Holland")
     elif suit==32:
-        print("Life Story Suit")
+        print("Life Story")
         v+=1
     elif suit==33:
-        print("Last Hunt Suit")
+        print("Last Hunt")
         v+=1
     elif suit==34:
-        print("Saving Lives Suit")
+        print("Saving Lives")
         v+=1
     elif suit==35:
-        print("Aurantia Suit")
+        print("Aurantia")
     elif suit==36:
-        print("Apunkalyptic Suit")
+        print("Apunkalyptic")
     elif suit==37:
-        print("Tactical Suit")
+        print("Tactical")
     elif suit==38:
-        print("Stone Monkey Suit")
+        print("Stone Monkey")
+    elif suit==39:
+        print("Spider-Man 2400")
     else:
-        print("25th Century Suit")
+        print("Hellfire Gala")
 else:
     if suit==1:
-        print("Upgraded Suit")
+        print("Upgraded")
         v+=1
     elif suit==2:
-        print("Evolved Suit")
+        print("Evolved")
         v+=1
     elif suit==3:
-        print("Family Business Suit")
+        print("Family Business")
         v+=1
     elif suit==4:
-        print("Classic Suit")
+        print("Classic")
         v+=1
     elif suit==5:
-        print("T.R.A.C.K. Suit")
+        print("T.R.A.C.K.")
         v+=1
     elif suit==6:
-        print("Brooklyn 2099 Suit")
+        print("Brooklyn 2099")
         v+=1
     elif suit==7:
-        print("Sportswear Suit")
+        print("Sportswear")
         v+=1
     elif suit==8:
-        print("Life Story Suit")
+        print("Life Story")
         v+=1
     elif suit==9:
-        print("2099 Suit")
+        print("Spider-Man 2099")
         v+=1
     elif suit==10:
-        print("Advanced Tech Suit")
+        print("Advanced Tech")
         v+=1
     elif suit==11:
-        print("Shadow-Spider Suit")
+        print("Shadow-Spider")
         v+=1
     elif suit==12:
-        print("2020 Suit")
+        print("Spider-Man 2020")
         v+=1
     elif suit==13:
-        print("Purple Reign Suit")
+        print("Purple Reign")
         v+=1
     elif suit==14:
-        print("Bodega Cat Suit")
+        print("Bodega Cat")
         v+=1
     elif suit==15:
-        print("Forever Suit")
+        print("Wakanda Forever")
         v+=1
     elif suit==16:
-        print("Homemade Suit")
+        print("Homemade")
         v+=1
     elif suit==17:
-        print("ITSV Suit")
+        print("ITSV")
     elif suit==18:
-        print("ITSV Cape Suit")
+        print("ITSV Cape")
     elif suit==19:
-        print("The End Suit")
+        print("The End")
         v+=1
     elif suit==20:
-        print("10th Anniversary Suit")
+        print("10th Anniversary")
         v+=1
     elif suit==21:
-        print("Programmable Matter Suit")
+        print("Programmable Matter")
         v+=1
     elif suit==22:
-        print("S.T.R.I.K.E. Suit")
+        print("S.T.R.I.K.E.")
         v+=1
     elif suit==23:
-        print("Agent of SHIELD Suit")
+        print("Agent of SHIELD")
         v+=1
     elif suit==24:
-        print("Great Responsibility Suit")
+        print("Great Responsibility")
         v+=1
     elif suit==25:
-        print("ATSV Suit")
+        print("ATSV")
     elif suit==26:
-        print("Crimson Cowl Suit")
+        print("Crimson Cowl")
         v+=1
     elif suit==27:
-        print("Best There Is Suit")
+        print("The Best There Is")
         v+=1
     elif suit==28:
-        print("Dark Ages Suit")
+        print("Dark Ages")
         v+=1
     elif suit==29:
-        print("Absolute Carnage Suit")
+        print("Absolute Carnage")
         v+=1
     elif suit==30:
-        print("King in Black Suit")
+        print("King in Black")
         v+=1
     elif suit==31:
-        print("Boricua Suit")
+        print("Boricua")
         v+=1
     elif suit==32:
-        print("Smoke & Mirrors Suit")
+        print("Smoke & Mirrors")
         v+=1
     elif suit==33:
-        print("Most Dangerous Game Suit")
+        print("Most Dangerous Game")
         v+=1
     elif suit==34:
-        print("City Sounds Suit")
+        print("City Sounds")
         v+=1
     elif suit==35:
-        print("Encoded Suit")
+        print("Encoded")
     elif suit==36:
-        print("Biomechanical Suit")
+        print("Biomechanical")
     elif suit==37:
-        print("Tokusatsu Suit")
+        print("Tokusatsu")
     elif suit==38:
-        print("Agimat Suit")
+        print("Agimat")
+    elif suit==39:
+        print("Red Spectre")
     else:
-        print("Red Spectre Suit")
+        print("Hellfire Gala")
 if v==1:
-    print("Variation "+str(random.randint(1,4)))
+    print("V"+str(random.randint(1,4)))
 print
 print("Perks:")
 x=random.randint(1,2)
