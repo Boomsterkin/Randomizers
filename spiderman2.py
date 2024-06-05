@@ -1,6 +1,6 @@
 import random
 v=0
-spidey=raw_input("Peter or Miles? ")
+spidey=input("Peter or Miles? ")
 print()
 print("Suit:")
 suit=random.randint(1,40)
