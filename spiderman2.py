@@ -1,7 +1,5 @@
 import random
-b=0
 v=0
-w=0
 spidey=raw_input("Peter or Miles? ")
 print()
 print("Suit:")
@@ -297,10 +295,10 @@ if spidey=="Peter":
     x=random.randint(1,2)
     if x==1:
         print("Black")
-        bw==""
+        bw=""
     else:
         print("White")
-        bw=="Anti-"
+        bw="Anti-"
     print("Abilities:")
     x=random.randint(1,3)
     if x==1:
