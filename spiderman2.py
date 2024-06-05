@@ -1,5 +1,7 @@
 import random
+b=0
 v=0
+w=0
 spidey=raw_input("Peter or Miles? ")
 print()
 print("Suit:")
@@ -220,7 +222,34 @@ else:
         print("Hellfire Gala")
 if v==1:
     print("V"+str(random.randint(1,4)))
-print
+print()
+print("Gadgets:")
+x=random.randint(1,2)
+if x==1:
+    print("Standard Webshooters")
+else:
+    print("Golden Webshooters")
+x=random.randint(1,2)
+if x==1:
+    print("Standard ")
+else:
+    print("Golden ")
+x=random.randint(1,2)
+if x==1:
+    print("Standard ")
+else:
+    print("Golden ")
+x=random.randint(1,2)
+if x==1:
+    print("Standard ")
+else:
+    print("Golden ")
+x=random.randint(1,2)
+if x==1:
+    print("Standard ")
+else:
+    print("Golden ")
+print()
 print("Perks:")
 x=random.randint(1,2)
 if x==1:
@@ -262,34 +291,43 @@ if x==1:
     print("All Seeing")
 else:
     print("Active Spider")
-print
-print("Abilities:")
+print()
 if spidey=="Peter":
-    x=random.randint(1,3)
-    if x==1:
-        print("Spider-Barrage")
-    elif x==2:
-        print("Anti-Venom Punch")
-    else:
-        print("Anti-Venom Bomb")
+    print("Symbiote Color:")
     x=random.randint(1,2)
     if x==1:
-        print("Spider-Rush")
+        print("Black")
+        bw==""
     else:
-        print("Anti-Venom Strike")
-    x=random.randint(1,2)
-    if x==1:
-        print("Spider-Shock")
-    else:
-        print("Anti-Venom Blast")
+        print("White")
+        bw=="Anti-"
+    print("Abilities:")
     x=random.randint(1,3)
     if x==1:
-        print("Spider-Whiplash")
+        print("Waldo-Wham")
     elif x==2:
-        print("Anti-Venom Yank")
+        print(bw+"Venom Vehemence")
     else:
-        print("Anti-Venom Tempest")
+        print(bw+"Venom Volley")
+    x=random.randint(1,2)
+    if x==1:
+        print("Waldo-Whirl")
+    else:
+        print(bw+"Venom Vore")
+    x=random.randint(1,2)
+    if x==1:
+        print("Waldo-Wire")
+    else:
+        print(bw+"Venom Violence")
+    x=random.randint(1,3)
+    if x==1:
+        print("Waldo-Whiplash")
+    elif x==2:
+        print(bw+"Venom Vellicate")
+    else:
+        print(bw+"Venom Vortex")
 else:
+    print("Abilities:")
     x=random.randint(1,2)
     if x==1:
         print("Venom Punch")
