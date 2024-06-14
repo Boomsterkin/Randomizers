@@ -1,72 +1,73 @@
 import random
 print("Cal:")
-x=random.randint(1,2)
+y=1
+print()
+print("Outfit:")
+x=random.randint(1,3)
 if x==1:
-    print("Kestis")
-    print()
+    print("Jacket")
+elif x==2:
     print("Poncho:")
-    x=random.randint(1,23)
+    x=random.randint(1,22)
     if x==1:
-        print("Jacket")
-    elif x==2:
         print("Bracca Scrapper")
-    elif x==3:
+    elif x==2:
         print("Starfighter")
-    elif x==4:
+    elif x==3:
         print("Commando")
-    elif x==5:
+    elif x==4:
         print("Offshore")
-    elif x==6:
+    elif x==5:
         print("Bogano Dawn")
-    elif x==7:
+    elif x==6:
         print("Free Kashyyyk")
-    elif x==8:
+    elif x==7:
         print("Shyyyo")
-    elif x==9:
+    elif x==8:
         print("The Guardian")
-    elif x==10:
+    elif x==9:
         print("Hyper Shell")
-    elif x==11:
+    elif x==10:
         print("Savannah")
-    elif x==12:
+    elif x==11:
         print("Fjord")
-    elif x==13:
+    elif x==12:
         print("Rainforest")
-    elif x==14:
+    elif x==13:
         print("Recon")
-    elif x==15:
+    elif x==14:
         print("Sumi")
-    elif x==16:
+    elif x==15:
         print("Serape")
-    elif x==17:
+    elif x==16:
         print("Vagabond")
-    elif x==18:
+    elif x==17:
         print("Rover")
-    elif x==19:
+    elif x==18:
         print("Outlander")
-    elif x==20:
+    elif x==19:
         print("Bravo")
-    elif x==21:
+    elif x==20:
         print("Wayfarer")
-    elif x==22:
+    elif x==21:
         print("Homestead")
     else:
         print("Companero")
-    print()
-    print("Outfit:")
-    x=random.randint(1,5)
-    if x==1:
-        print("1")
-    elif x==2:
-        print("2")
-    elif x==3:
-        print("3")
-    elif x==4:
-        print("4")
-    else:
-        print("5")
 else:
     print("Inquisitor")
+    y=0
+if y==1:
+    x=random.randint(1,5)
+    if x==1:
+        print("")
+    elif x==2:
+        print("")
+    elif x==3:
+        print("")
+    elif x==4:
+        print("")
+    else:
+        print("")
 print()
 print("BD-1:")
 x=random.randint(1,18)
