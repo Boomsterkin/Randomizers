@@ -283,7 +283,7 @@ elif x==19:
 else:
     print("Protection and Defense II")
 print()
-print("Switch:")
+print("Material:")
 x=random.randint(1,26)
 if x==1:
     print("Alloy Metal")
