@@ -3,7 +3,7 @@ v=0
 spidey=input("Peter or Miles? ")
 print()
 print("Suit:")
-suit=random.randint(1,40)
+suit=random.randint(1,45)
 if spidey!="Miles":
     if suit==1:
         print("Advanced 2.0")
@@ -104,8 +104,21 @@ if spidey!="Miles":
         print("Stone Monkey")
     elif suit==39:
         print("Spider-Man 2400")
-    else:
+    elif suit==40:
+        print("Fly-Man")
+    elif suit==41:
         print("Hellfire Gala")
+    elif suit==42:
+        print("Fluro")
+        v+=1
+    elif suit==43:
+        print("Motorchic")
+        v+=1
+    elif suit==44:
+        print("Last Stand")
+        v+=1
+    else:
+        print("Spider-Verse")
 else:
     if suit==1:
         print("Upgraded")
@@ -216,49 +229,25 @@ else:
         print("Agimat")
     elif suit==39:
         print("Red Spectre")
-    else:
+    elif suit==40:
+        print("Fresh-Man")
+    elif suit==41:
         print("Hellfire Gala")
+    elif suit==42:
+        print("Metro")
+        v+=1
+    elif suit==43:
+        print("Ginga")
+        v+=1
+    elif suit==44:
+        print("Uptown Pride")
+        v+=1
+    else:
+        print("Animated")
 if v==1:
     print("V"+str(random.randint(1,4)))
 print()
-print("Gadgets:")
-x=random.randint(1,2)
-if x==1:
-    print("Standard Webshooters")
-else:
-    print("Golden Webshooters")
-x=random.randint(1,2)
-if x==1:
-    print("Standard ")
-else:
-    print("Golden ")
-x=random.randint(1,2)
-if x==1:
-    print("Standard ")
-else:
-    print("Golden ")
-x=random.randint(1,2)
-if x==1:
-    print("Standard ")
-else:
-    print("Golden ")
-x=random.randint(1,2)
-if x==1:
-    print("Standard ")
-else:
-    print("Golden ")
-print()
-print("Perks:")
-x=random.randint(1,2)
-if x==1:
-    print("Confidence Boost")
-else:
-    print("Rejuvenating Parry")
-x=random.randint(1,2)
-if x==1:
-    print("The Best Defense")
-else:
-    print("Life Link")
+print("Suit Tech:")
 x=random.randint(1,2)
 if x==1:
     print("Air Marshal")
@@ -290,14 +279,38 @@ if x==1:
 else:
     print("Active Spider")
 print()
+print("Gadgets:")
+x=random.randint(1,2)
+if x==1:
+    print("Standard Web-Shooters")
+else:
+    print("Golden Web-Shooters")
+x=random.randint(1,2)
+if x==1:
+    print("Standard Upshot")
+else:
+    print("Golden Upshot")
+x=random.randint(1,2)
+if x==1:
+    print("Standard Web Grabber")
+else:
+    print("Golden Web Grabber")
+x=random.randint(1,2)
+if x==1:
+    print("Standard Sonic Burst")
+else:
+    print("Golden Sonic Burst")
+x=random.randint(1,2)
+if x==1:
+    print("Standard Ricochet Web")
+else:
+    print("Golden Ricochet Web")
+print()
 if spidey=="Peter":
-    print("Symbiote Color:")
-    x=random.randint(1,2)
-    if x==1:
-        print("Black")
+    color=random.randint(1,2)
+    if color==1:
         bw=""
     else:
-        print("White")
         bw="Anti-"
     print("Abilities:")
     x=random.randint(1,3)
@@ -324,6 +337,12 @@ if spidey=="Peter":
         print(bw+"Venom Vellicate")
     else:
         print(bw+"Venom Vortex")
+    print()
+    print("Symbiote Color:")    
+    if color==1:
+        print("Black")
+    else:
+        print("White")
 else:
     print("Abilities:")
     x=random.randint(1,2)
